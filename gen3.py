@@ -26,3 +26,4 @@ for i in range(5):
     response = chain.invoke({})
     arr.append(("ai", response.content))
     print(response.content)
+    

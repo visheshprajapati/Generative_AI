@@ -11,7 +11,7 @@ message = [
     }
 ]
 for i in range(3):
-    user_input = input("User: ")
+    user_input = input("User:")
     message.append({
         "role": "user",
         "content": user_input
